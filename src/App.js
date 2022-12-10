@@ -20,6 +20,10 @@ function App() {
       <fieldset>
         <legend>or</legend>
     </fieldset>
+    <button class="Google"><i class="fab fa-google"></i> Log in with Google</button>
+    <br></br>
+    <p class="class2">Not yet a customer?</p>
+    <br></br>
     </div>
     </form>
 
