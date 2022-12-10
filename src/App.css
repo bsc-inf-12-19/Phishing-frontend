@@ -1,36 +1,93 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+  background-color: rgb(36, 21, 21);
+  border: 0;
+  padding: 0;
   }
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  h3{
+  color:white;
+  padding: top 1%;
+  }
+  p{
+  color:white;
+  font-size: 16px;
+  }
+  span{
+  color:white;
+  margin-right: 26px;
+  font-family: Calibri;
+  
+  }
+  h5{
+  color:orange;
+  font-size:14px;
+  margin-right: 70px;
+  font-family: Calibri;
+  }
+  .button1{
+  width:140px;
+  border-style: none;
+  height:25px;
+  border-radius: 3px;
+  background-color:rgb(29, 82, 82);
+  }
+  form{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  align-content: center;
+  border-radius: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  .div1{
+  height: 479.34px;
+  width: 380px;
+  background-color:rgb(23, 54, 54);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  border-radius: 10px;
+  max-width: fit-content;
+  border-width: 10px;
+  align-content: center;
   }
-}
+  .checkbox{
+  border-color: white;
+  background-color:rgb(18, 36, 36);
+  color:black;
+  background-color: transparent;
+  border-style: solid;
+  
+  }
+  .input1{
+  background-color:rgb(18, 36, 36);
+  height:30px;
+  color:white;
+  width:300px;
+  border-radius: 5px;
+  border-color: white;
+  }
+  .class1{
+  margin-right: 265px;
+  font-family: Calibri;
+  font-size: 20px;
+  }
+  .class2{
+  color:orange;
+  }
+  legend{
+  color:white;
+  text-align: center;
+  }
+  fieldset{
+  width:300px;
+  border-bottom: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  }
+  .Google{
+  color:white;
+  background-color:red;
+  border-radius: 2px;
+  border-style: none;
+  height:25px;
+  }

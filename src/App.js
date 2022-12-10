@@ -1,5 +1,6 @@
 
-//import './App.css';
+import './App.css';
+// import 'fontawesome-free-6.1.2-web\css\all.css';
 import {BrowserRouter as Router,Route ,Routes} from 'react-router-dom'
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <fieldset>
         <legend>or</legend>
     </fieldset>
-    <button class="Google"><i class="fab fa-google"></i> Log in with Google</button>
+    <button className="Google"><i class="fab fa-google"></i> Log in with Google</button>
     <br></br>
     <p class="class2">Not yet a customer?</p>
     <br></br>
