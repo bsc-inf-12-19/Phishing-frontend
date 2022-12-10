@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(36, 21, 21);
+  background-color: rgb(52, 29, 29);
   border: 0;
   padding: 0;
   }
@@ -15,12 +15,14 @@ body{
   color:white;
   margin-right: 26px;
   font-family: Calibri;
+  font-size: 13px;
   
   }
   h5{
   color:orange;
-  font-size:14px;
-  margin-right: 70px;
+  font-size:12px;
+  margin-right: 187px;
+  /* margin-right: 70px; */
   font-family: Calibri;
   }
   .button1{
@@ -28,7 +30,9 @@ body{
   border-style: none;
   height:25px;
   border-radius: 3px;
-  background-color:rgb(29, 82, 82);
+  color:white;
+  opacity:0.4;
+  background-color:rgb(134, 131, 131);
   }
   form{
   display: flex;
@@ -39,8 +43,8 @@ body{
   }
   .div1{
   height: 479.34px;
-  width: 380px;
-  background-color:rgb(23, 54, 54);
+  width: 400px;
+  background-color:rgb(80, 41, 41);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,6 +58,7 @@ body{
   border-color: white;
   background-color:rgb(18, 36, 36);
   color:black;
+  border:1px;
   background-color: transparent;
   border-style: solid;
   
@@ -63,8 +68,15 @@ body{
   height:30px;
   color:white;
   width:300px;
+  border:0.5px solid rgb(97, 88, 88);
   border-radius: 5px;
   border-color: white;
+  }
+  ::placeholder{
+    color:white;
+    opacity:0.8;
+    font-family:Calibri;
+    margin-left: 5px;
   }
   .class1{
   margin-right: 265px;
@@ -73,6 +85,7 @@ body{
   }
   .class2{
   color:orange;
+  font-size: 12px;
   }
   legend{
   color:white;
