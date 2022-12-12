@@ -32,7 +32,7 @@ body{
   border-radius: 3px;
   color:white;
   opacity:0.4;
-  background-color:rgb(134, 131, 131);
+  background-color:rgb(95, 84, 84);
   }
   form{
   display: flex;
@@ -44,7 +44,7 @@ body{
   .div1{
   height: 479.34px;
   width: 400px;
-  background-color:rgb(80, 41, 41);
+  background-color:#472f2f;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,4 +103,8 @@ body{
   border-radius: 2px;
   border-style: none;
   height:25px;
+  }
+  Navbar{
+    margin: 0%;
+    padding: 0%;
   }
