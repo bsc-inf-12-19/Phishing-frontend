@@ -53,16 +53,19 @@ const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   }
   return (
     
-    <form action={""} method="POST" target="_black">
+    // <form action={""} method="POST" target="_black">
+      <form>
       <Navbar/>
       <br></br>
     <div className='div1'>
       <p className='class1'>Login</p>
       <br/>
-      <input className='input1' type="email" placeholder="  Email *" required/>
+      <input className='input1' type="email" placeholder="  Email *" 
+       onChange={(e) => onChange(e, "email")} value={formState.email} required/>
       <br></br>
       <br></br>
-      <input class="input1" type="password" placeholder="  Password *"  required />
+      <input class="input1" type="password" placeholder="  Password *" 
+      onChange={(e) => onChange(e, "password")} value={formState.password} required />
       <h5>Forget your password?</h5>
       <input class="button1" type="submit" value="Log in"/>
       <span><input class="checkbox" type="checkbox"/> Remember me</span>
