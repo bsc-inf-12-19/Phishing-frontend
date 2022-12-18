@@ -1,7 +1,8 @@
 body{
-  background-color: rgb(52, 29, 29);
-  border: 0;
-  padding: 0;
+  /* background-color: rgb(52, 29, 29); */
+  background-color: #303030;
+  margin: 0%;
+  padding: 0%;
   }
   h3{
   color:white;
@@ -13,13 +14,15 @@ body{
   }
   span{
   color:white;
-  margin-right: 26px;
+  margin-top: 2px;
+  margin-right: 50px;
   font-family: Calibri;
   font-size: 13px;
   
   }
   h5{
   color:orange;
+  opacity: 0.8;
   font-size:12px;
   margin-right: 187px;
   /* margin-right: 70px; */
@@ -44,7 +47,7 @@ body{
   .div1{
   height: 479.34px;
   width: 400px;
-  background-color:#472f2f;
+  background-color:#424242;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,20 +66,34 @@ body{
   border-style: solid;
   
   }
-  .input1{
-  background-color:rgb(18, 36, 36);
-  height:30px;
-  color:white;
-  width:300px;
-  border:0.5px solid rgb(97, 88, 88);
-  border-radius: 5px;
-  border-color: white;
+  .large{
+    height: 479.34px;
+  width: 400px;
+  background-color:#424242;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  border-radius: 10px;
+  max-width: fit-content;
+  border-width: 10px;
+  align-content: center;
   }
   ::placeholder{
     color:white;
-    opacity:0.8;
+    opacity:1;
     font-family:Calibri;
     margin-left: 5px;
+  }
+  .input1{
+  background-color:rgb(18, 36, 36);
+  height:35px;
+  color:white;
+  width:300px;
+  border:0.2px solid rgb(97, 88, 88);
+  border-radius: 3px;
+  opacity: 0.5;
+  border-color: white;
   }
   .class1{
   margin-right: 265px;
@@ -103,8 +120,4 @@ body{
   border-radius: 2px;
   border-style: none;
   height:25px;
-  }
-  Navbar{
-    margin: 0%;
-    padding: 0%;
   }
