@@ -8,6 +8,11 @@ body{
   color:white;
   padding: top 1%;
   }
+  .logo{
+    height:18px;
+    width:18px;
+    margin-bottom: -5px;
+  }
   p{
   color:white;
   font-size: 16px;
@@ -29,7 +34,7 @@ body{
   font-family: Calibri;
   }
   .button1{
-  width:140px;
+  width:150px;
   border-style: none;
   height:25px;
   border-radius: 3px;
@@ -119,5 +124,6 @@ body{
   background-color:red;
   border-radius: 2px;
   border-style: none;
-  height:25px;
+  width:150px;
+  height:28px;
   }

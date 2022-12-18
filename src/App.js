@@ -47,7 +47,7 @@ function App() {
       <fieldset>
         <legend>or</legend>
     </fieldset>
-    <button href="www.google.com" className="Google"><i class="fab fa-google"></i> Log in with Google</button>
+    <button href="www.google.com" className="Google"><img class="logo" alt='google logo' src="google.svg"/> Log in with Google</button>
     <br></br>
     <p class="class2">Not yet a customer?</p>
     <br></br>
