@@ -108,6 +108,9 @@ body{
   opacity: 0.5;
   border-color: white;
   }
+  .input1:hover{
+    border-color: red;
+  }
   .class1{
   margin-right: 265px;
   font-family: Calibri;
