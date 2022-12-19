@@ -19,7 +19,7 @@ body{
   span{
   color:white;
   margin-top: 2px;
-  margin-right: 8px;
+  margin-right: 20px;
   font-family: Calibri;
   font-size: 13px;
   }
@@ -71,6 +71,9 @@ body{
   border-width: 10px;
   align-content: center;
   }
+  .span1{
+   margin-right: 88px; 
+  }
   .checkbox{
   border-color: white;
   background-color:rgb(18, 36, 36);
@@ -107,6 +110,9 @@ body{
   border-radius: 3px;
   opacity:0.4;
   border-color: white;
+  }
+  .input1:active{
+    border-color: red;
   }
   .input1:hover{
     border-color: red;

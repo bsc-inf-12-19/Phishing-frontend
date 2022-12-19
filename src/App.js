@@ -31,7 +31,7 @@ function App() {
        <input class="input1" type="password" placeholder="  Password *" required />
         <h5>Forget your password?</h5>
         <button class="button2"><img class="logo" alt='google logo' src="login.svg"/><span> Log in</span></button>
-        <span><input class="checkbox" type="checkbox"/> Remember me</span>
+        <span class="span1"><input class="checkbox" type="checkbox"/> Remember me</span>
          <br></br>
          <br></br>
       <fieldset>
