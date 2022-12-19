@@ -1,5 +1,4 @@
 body{
-  /* background-color: rgb(52, 29, 29); */
   background-color: #303030;
   margin: 0%;
   padding: 0%;
@@ -23,14 +22,12 @@ body{
   margin-right: 50px;
   font-family: Calibri;
   font-size: 13px;
-  
   }
   h5{
   color:orange;
   opacity: 0.8;
   font-size:12px;
   margin-right: 187px;
-  /* margin-right: 70px; */
   font-family: Calibri;
   }
   .button1{
@@ -69,7 +66,6 @@ body{
   border:1px;
   background-color: transparent;
   border-style: solid;
-  
   }
   .large{
     height: 479.34px;
