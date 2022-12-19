@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-// import { Link, useNavigate } from "react-router-dom";
 import Navbar from './Navbar';
 // import {useState} from 'react';
 function App() {
