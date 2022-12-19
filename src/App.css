@@ -19,7 +19,7 @@ body{
   span{
   color:white;
   margin-top: 2px;
-  margin-right: 50px;
+  margin-right: 8px;
   font-family: Calibri;
   font-size: 13px;
   }
@@ -39,6 +39,18 @@ body{
   opacity:0.4;
   background-color:rgb(95, 84, 84);
   }
+  span{
+    font-size: 16px;
+  }
+  .button2{
+    width:200px;
+    border-style: none;
+    height:35px;
+    border-radius: 3px;
+    color:white;
+    opacity:0.6;
+    background-color:rgb(95, 84, 84);
+    }
   form{
   display: flex;
   flex-direction: column;
@@ -69,7 +81,7 @@ body{
   }
   .large{
     height: 479.34px;
-  width: 400px;
+  width: 600px;
   background-color:#424242;
   display: flex;
   flex-direction: column;

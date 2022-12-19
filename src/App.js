@@ -18,6 +18,7 @@ function App() {
   //   })
   
   return (
+    <div class="container">
       <form>
           <Navbar/>
            <br></br>
@@ -30,7 +31,7 @@ function App() {
          <br></br>
        <input class="input1" type="password" placeholder="  Password *" required />
         <h5>Forget your password?</h5>
-      <input class="button1" type="submit" value="Log in"/>
+        <button class="button2"><img class="logo" alt='google logo' src="login.svg"/><span> Log in</span></button>
         <span><input class="checkbox" type="checkbox"/> Remember me</span>
          <br></br>
          <br></br>
@@ -43,6 +44,7 @@ function App() {
         <br></br>
        </div>
      </form>
+     </div>
 
   );
 }
