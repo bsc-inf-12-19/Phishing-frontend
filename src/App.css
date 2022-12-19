@@ -105,7 +105,7 @@ body{
   width:300px;
   border:0.2px solid rgb(97, 88, 88);
   border-radius: 3px;
-  opacity: 0.5;
+  opacity:0.4;
   border-color: white;
   }
   .input1:hover{
