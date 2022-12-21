@@ -8,7 +8,8 @@ function Navbar (){
                 <li class="text"><p>OWASP Juice Shop</p></li>
             </ul>
             <ul class="ul2">
-                <li><img class="image1" alt="logo" src ="seach.svg"/></li>
+                <li><input class="inputlogo" type="text"/></li>
+                {/* <li><img class="image1" alt="logo" src ="seach.svg"/></li> */}
                 <li><img class="image1" alt="logo" src ="user.svg"/>Account</li>
                 <li><img class="image1" alt="logo" src ="language.svg" />EN</li>
             </ul>
