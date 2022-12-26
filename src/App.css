@@ -3,34 +3,40 @@ body{
   margin: 0%;
   padding: 0%;
   }
-  h3{
+
+h3{
   color:white;
   padding: top 1%;
   }
-  .logo{
+
+.logo{
     height:18px;
     width:18px;
     margin-bottom: -5px;
   }
-  p{
+
+p{
   color:white;
   font-size: 16px;
   }
-  span{
+
+span{
   color:white;
   margin-top: 2px;
   margin-right: 20px;
   font-family: Calibri;
   font-size: 13px;
   }
-  h5{
-  color:orange;
+h5{
+  color:rgb(243, 181, 66);
   opacity: 0.8;
   font-size:12px;
+  margin-bottom: 25px;
   margin-right: 187px;
   font-family: Calibri;
   }
-  .button1{
+
+.button1{
   width:150px;
   border-style: none;
   height:25px;
@@ -39,26 +45,30 @@ body{
   opacity:0.4;
   background-color:rgb(95, 84, 84);
   }
-  span{
+
+span{
     font-size: 16px;
   }
-  .button2{
-    width:200px;
+
+.button2{
+    width:170px;
     border-style: none;
-    height:35px;
+    height:50px;
     border-radius: 3px;
     color:white;
-    opacity:0.6;
+    opacity:0.4;
     background-color:rgb(95, 84, 84);
     }
-  form{
+
+form{
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   border-radius: 10px;
   }
-  .div1{
+
+.div1{
   height: 479.34px;
   width: 400px;
   background-color:#424242;
@@ -71,19 +81,23 @@ body{
   border-width: 10px;
   align-content: center;
   }
-  .span1{
-   margin-right: 88px; 
+
+.span1{
+   margin-right: 76px;
+   font-size: 12px;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
   }
-  .checkbox{
+
+.checkbox{
   border-color: white;
   background-color:rgb(18, 36, 36);
-  color:black;
   border:1px;
   background-color: transparent;
   border-style: solid;
   }
-  .large{
-    height: 479.34px;
+
+.large{
+  height: 479.34px;
   width: 600px;
   background-color:#424242;
   display: flex;
@@ -95,52 +109,69 @@ body{
   border-width: 10px;
   align-content: center;
   }
-  ::placeholder{
+
+::placeholder{
     color:white;
     opacity:1;
     font-family:Calibri;
     margin-left: 5px;
   }
-  .input1{
+
+.input1{
   background-color:rgb(18, 36, 36);
-  height:35px;
+  height:55px;
   color:white;
   width:300px;
   border:0.2px solid rgb(97, 88, 88);
   border-radius: 3px;
-  opacity:0.4;
+  opacity:0.3;
   border-color: white;
   }
-  .input1:active{
+
+.input1:active{
     border-color: red;
   }
-  .input1:hover{
+
+.input1:hover{
     border-color: red;
   }
-  .class1{
-  margin-right: 265px;
-  font-family: Calibri;
+
+.class1{
+  margin-right: 255px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 20px;
   }
-  .class2{
-  color:orange;
+  
+.class2{
+  color:rgb(243, 181, 66);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-top: 2%;
   font-size: 12px;
   }
-  legend{
+
+legend{
   color:white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-align: center;
+ 
+  
   }
-  fieldset{
+
+fieldset{
+  margin-top: 2%;
+  opacity:0.6;
   width:300px;
   border-bottom: transparent;
   border-left: transparent;
   border-right: transparent;
   }
-  .Google{
+
+.Google{
   color:white;
   background-color:rgb(37, 158, 37);
   border-radius: 2px;
   border-style: none;
   width:170px;
-  height:28px;
+  height:50px;
+  font-family: Arial, Helvetica, sans-serif;
   }
