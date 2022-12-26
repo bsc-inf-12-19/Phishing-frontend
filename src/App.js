@@ -2,15 +2,16 @@ import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import {useState} from 'react';
+// import axios from "axios";
 // import PropTypes from 'prop-types';
-// import Service from "./Service"
+// import Service from './Service'
 function App() {
   const[Email,setEmail] = useState('')
   const[password,setPassword] = useState('')
 
-  // const [formState, setFormState] = React.useState({
+  //const [formState, setFormState] = React.useState({
  
-  //   const response = await fetch('http://localhost:8000', {
+  //   const response = await fetch('http://localhost:8000/api/vi/user/login', {
   //     method: "post",
   //     headers: {
   //     },
@@ -19,6 +20,22 @@ function App() {
   //       password: formState.password
   //     })
   //   })
+
+
+  // const submitForm = async('http://localhost:8080/api/vi/user/login', inputValues)
+  // console.log('user');
+
+
+
+
+  // axios({
+  //   url: "http://localhost:8080/api/v1/login",
+  //   method: "POST",
+  //   headers: {
+  //   },
+  // })
+
+
   return (
     <div class="container">
       <form>
@@ -35,7 +52,6 @@ function App() {
        <input class="input1" style={{height:"35%"}} type="password" placeholder="  Password *" required value={password}
                     onChange ={(e) => setPassword(e.target.value)}/>
         <h5>Forget your password?</h5>
-        {/* <br></br> */}
         <button class="button2" style={{height:"25%"}}><img class="logo" alt='google logo' src="login.svg"/><span> Log in</span></button>
         <span class="span1"><input class="checkbox" type="checkbox"/> Remember me</span>
          <br></br>
