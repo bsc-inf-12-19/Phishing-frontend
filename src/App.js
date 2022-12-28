@@ -1,44 +1,27 @@
-import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import {useState} from 'react';
-// import axios from "axios";
-// import PropTypes from 'prop-types';
-// import Service from './Service'
+import axios from 'axios';
+import {onSubmit} from 'react';
+import {handleSubmit} from 'react'
 function App() {
   const[Email,setEmail] = useState('')
   const[password,setPassword] = useState('')
 
-  //const [formState, setFormState] = React.useState({
- 
-  //   const response = await fetch('http://localhost:8000/api/vi/user/login', {
-  //     method: "post",
-  //     headers: {
-  //     },
-  //     body: JSON.stringify({
-  //       email: formState.email,
-  //       password: formState.password
-  //     })
-  //   })
-
-
-  // const submitForm = async('http://localhost:8080/api/vi/user/login', inputValues)
-  // console.log('user');
-
-
-
-
-  // axios({
-  //   url: "http://localhost:8080/api/v1/login",
-  //   method: "POST",
-  //   headers: {
-  //   },
-  // })
-
+  axios({
+    url: "http://localhost:8080/api/v1/login",
+    method: "POST",
+    headers: {
+    },
+  })
 
   return (
     <div class="container">
-      <form>
+      <form
+        onSubmit={(e) => {
+        handleSubmit(onSubmit)(e)
+         .catch(() => {});
+        }}>
         <Navbar/>
            <br></br>
            <br></br>
@@ -47,7 +30,6 @@ function App() {
            <br/>
         <input class='input1' style={{height:"35%"}} type="email" placeholder="  Email *" required value={Email}
                   onChange = {(e) => setEmail(e.target.value)}/>
-                  
            <br></br>
            <br></br>
        <input class="input1" style={{height:"35%"}} type="password" placeholder="  Password *" required value={password}
